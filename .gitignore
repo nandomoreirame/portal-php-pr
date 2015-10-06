@@ -1,4 +1,6 @@
 *.log
+
+# WordPress
 .htaccess
 sitemap.xml
 sitemap.xml.gz
@@ -13,5 +15,40 @@ wp-content/uploads/
 wp-content/wp-cache-config.php
 vendor/
 composer.lock
+
+# Global
+._*
+.AppleDouble
+.DS_Store
+.localized
+.LSOverride
+.Spotlight-V100
+.Trashes
+Icon
+Desktop.ini
+ehthumbs.db
+Thumbs.db
+*~
 *.*~
 *.swp
+TAGS
+tags
+.*.sw[a-z]
+.netrwhist
+*.un~
+Session.vim
+*.sublime-project
+*.sublime-workspace
+*.sublime-projectcompletions
+*.tmproj
+*.tmproject
+tmtags
+nbproject/*
+.ftppass
+.sftp-config.json
+sftp-config.json
+
+.sass-cache
+node_modules
+tmp
+*.zip
